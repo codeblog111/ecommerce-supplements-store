@@ -26,7 +26,7 @@ const PaymentScreen = ({ history }) => {
 
   return (
     <FormContainer>
-      <Meta title='PHANOX Payment'/>
+      <Meta title='H2Cart Payment'/>
       <CheckoutSteps step1 step2 step3 />
       <h4 className='mb-3'>PAYMENT METHOD</h4>
       <Form onSubmit={submitHandler}>

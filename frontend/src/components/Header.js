@@ -30,7 +30,7 @@ const Header = () => {
       >
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand className='fw-bold'>PHANOX</Navbar.Brand>
+            <Navbar.Brand className='fw-bold'>H2Cart</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>

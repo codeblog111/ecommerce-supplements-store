@@ -42,7 +42,7 @@ const RegisterScreen = ({ location, history }) => {
 
   return (
     <FormContainer>
-      <Meta title='PHANOX Register'/>
+      <Meta title='H2Cart Register'/>
       <h4>Sign Up</h4>
       {message && <Message>{message}</Message>}
       {error && <Message>{error}</Message>}

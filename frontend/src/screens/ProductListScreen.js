@@ -78,7 +78,7 @@ const ProductListScreen = ({ history, match }) => {
 
   return (
     <>
-      <Meta title='PHANOX Product-List'/>
+      <Meta title='H2Cart Product-List'/>
       <Row className='align-items-center'>
         <Col>
           <h2>Products</h2>

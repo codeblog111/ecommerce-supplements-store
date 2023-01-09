@@ -133,7 +133,7 @@ const Footer = () => {
         <Row>
           <Col className='text-muted text-start'>
             <span>
-              Copyright &copy; PHANOX 2023. All rights reserved.
+              Copyright &copy; H2Cart 2023. All rights reserved.
             </span>
             <br />
             <p style={{ fontSize: '14px' }} className='py-2'>

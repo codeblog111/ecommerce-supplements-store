@@ -65,7 +65,7 @@ const ProfileScreen = ({ history }) => {
 
   return (
     <Row>
-      <Meta title='PHANOX User-Profile'/>
+      <Meta title='H2Cart User-Profile'/>
       <Col md={3}>
         <h4>USER PROFILE</h4>
         {message && <Message>{message}</Message>}

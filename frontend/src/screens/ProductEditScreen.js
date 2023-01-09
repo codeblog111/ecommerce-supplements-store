@@ -101,7 +101,7 @@ const ProductEditScreen = ({ history, match }) => {
 
   return (
     <>
-      <Meta title='PHANOX Edit Product'/>
+      <Meta title='H2Cart Edit Product'/>
       <Link to='/admin/productlist' className='btn btn-dark my-3'>
         Go Back
       </Link>

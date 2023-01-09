@@ -32,7 +32,7 @@ const ShippingScreen = ({ history }) => {
 
   return (
     <FormContainer>
-      <Meta title='PHANOX Shipping'/>
+      <Meta title='H2Cart Shipping'/>
       <CheckoutSteps step1 step2 />
       <h4 className='mb-3'>SHIPPING ADDRESSS</h4>
       <Form onSubmit={submitHandler}>

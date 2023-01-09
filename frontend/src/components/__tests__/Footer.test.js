@@ -3,5 +3,5 @@ import Footer from '../Footer';
 
 test('for check footer', () => {
   render(<Footer />);
-  expect(screen.getByText(/Copyright © PHANOX/)).toBeInTheDocument();
+  expect(screen.getByText(/Copyright © H2Cart/)).toBeInTheDocument();
 });

@@ -35,7 +35,7 @@ const UserListScreen = ({ history }) => {
 
   return (
     <>
-      <Meta title='PHANOX User-List'/>
+      <Meta title='H2Cart User-List'/>
       <h2>Users</h2>
       {loading ? (
         <Loader />

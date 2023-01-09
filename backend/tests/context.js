@@ -15,7 +15,7 @@ class Context {
 
   static async connect() {
     // Randomly generating a testDB name
-    const dbName = 'phanox_test' + randomBytes(4).toString('hex');
+    const dbName = 'h2cart_test' + randomBytes(4).toString('hex');
 
     const dbHost = process.env.DB_HOST || 'localhost';
 

@@ -1,6 +1,6 @@
 {
-  "short_name": "PHANOX",
-  "name": "PHANOX",
+  "short_name": "H2Cart",
+  "name": "H2Cart",
   "icons": [
     {
       "src": "favicon.ico",
@@ -39,7 +39,7 @@
   "display": "standalone",
   "theme_color": "#2780e3",
   "background_color": "#ffffff",
-  "description": "PHANOX is a ecommerce website for buying high quality suppliment products.",
+  "description": "H2Cart is a ecommerce website for buying high quality suppliment products.",
   "lang": "en",
   "categories": ["ecommerce"],
   "screenshots": [

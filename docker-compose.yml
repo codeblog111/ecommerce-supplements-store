@@ -17,7 +17,7 @@ services:
     volumes:
       - ./backend:/app/backend
     environment:
-      - MONGO_URI=mongodb://db/phanox_dev
+      - MONGO_URI=mongodb://db/h2cart_dev
       - DB_HOST=db
       - DB_PORT=27017
     ports:

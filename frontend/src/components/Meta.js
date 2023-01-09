@@ -12,7 +12,7 @@ const Meta = ({ title, description, keywords }) => {
 };
 
 Meta.defaultProps = {
-  title: 'Welcome to PHANOX',
+  title: 'Welcome to H2Cart',
   keywords: 'supplements, buy proteins, bcaa',
   description: 'Sells high quality health supplements',
 };

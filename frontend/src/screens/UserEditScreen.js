@@ -49,7 +49,7 @@ const UserEditScreen = ({ history, match }) => {
 
   return (
     <>
-      <Meta title='PHANOX User-Edit'/>
+      <Meta title='H2Cart User-Edit'/>
       <Link to='/admin/userlist' className='btn btn-dark my-3'>
         Go Back
       </Link>

@@ -99,7 +99,7 @@ const OrderScreen = ({ match, history }) => {
         <Message variant='danger'>{error}</Message>
       ) : (
         <Row>
-          <Meta title='PHANOX Order'/>
+          <Meta title='H2Cart Order'/>
           <Col>
             <ListGroup variant='flush'>
               <ListGroup.Item>

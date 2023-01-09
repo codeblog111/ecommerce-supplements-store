@@ -62,7 +62,7 @@ const PlaceOrderScreen = ({ history }) => {
 
   return (
     <>
-      <Meta title='PHANOX Place Order'/>
+      <Meta title='H2Cart Place Order'/>
       <CheckoutSteps step1 step2 step3 step4 />
       <Row>
         <Col md={8}>

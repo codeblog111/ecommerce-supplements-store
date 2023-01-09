@@ -46,7 +46,7 @@ const CartScreen = ({ match, location, history }) => {
 
   return (
     <Row>
-      <Meta title='PHANOX Cart'/>
+      <Meta title='H2Cart Cart'/>
       <h4 className='shopping-cart-title fw-bold'>Shopping Cart</h4>
       <Col md={8}>
         {cartItems.length === 0 ? (

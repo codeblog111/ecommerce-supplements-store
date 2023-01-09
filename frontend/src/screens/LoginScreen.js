@@ -36,7 +36,7 @@ const LoginScreen = ({ location, history }) => {
 
   return (
     <FormContainer>
-      <Meta title='PHANOX Login'/>
+      <Meta title='H2Cart Login'/>
       <h4 data-cy='sign-in'>Sign In</h4>
       {error && <Message>{error}</Message>}
       {loading && <Loader />}

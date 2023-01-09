@@ -15,7 +15,7 @@ services:
       dockerfile: ./compose/test/backend/Dockerfile
     command: /start.sh
     environment:
-      - MONGO_URI=mongodb://db/phanox_test
+      - MONGO_URI=mongodb://db/h2cart_test
       - DB_HOST=db
       - DB_PORT=27017
       - NODE_ENV=test
@@ -45,7 +45,7 @@ services:
       context: .
       dockerfile: ./compose/test/e2e/Dockerfile
     environment:
-      - MONGO_URI=mongodb://db/phanox_test
+      - MONGO_URI=mongodb://db/h2cart_test
       - DB_HOST=db
       - DB_PORT=27017
       - NODE_ENV=test
