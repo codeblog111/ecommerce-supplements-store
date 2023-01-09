@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "rating": 1,
+      "numReviews": 17,
+      "price": 79.19,
+      "countInStock": 20,
+      "_id": "61b79f13c138335ee89e4e6c",
+      "name": "Rule One Proteins R1 Whey Blend",
+      "image": "/images/RONE6160107_grey_900x-PhotoRoom.png",
+      "description": "Our three-whey blend offers the perfect mix of nutritional quality, great taste, and bang for your buck. 100% Whey Protein from whey concentrates, isolates, and hydrolysates, 24 grams of protein per scoop, and packed with naturally occurring EAA, BCAA, and glutamine. An overachiever in every way – except price!",
+      "brand": "RULE ONE PROTEINS",
+      "category": "protein",
+      "user": "61b79f13c138335ee89e4e5f",
+      "reviews": [],
+      "__v": 0,
+      "createdAt": "2021-12-13T19:29:23.528Z",
+      "updatedAt": "2021-12-13T19:29:23.528Z"
+    },
+    {
+      "rating": 4,
+      "numReviews": 19,
+      "price": 32.39,
+      "countInStock": 14,
+      "_id": "61b79f13c138335ee89e4e6b",
+      "name": "BSN Syntha-6 Edge Low-Carb Protein",
+      "image": "/images/BSN4290017_grey_900x-PhotoRoom.png",
+      "description": "Syntha-6 Edge is designed to give your muscles the protein they need to support recovery without the excess carbs and fat. This lean, protein packed shake delivers an amazing milkshake-like experience.",
+      "brand": "BSN",
+      "category": "protein",
+      "user": "61b79f13c138335ee89e4e5f",
+      "reviews": [],
+      "__v": 0,
+      "createdAt": "2021-12-13T19:29:23.528Z",
+      "updatedAt": "2021-12-13T19:29:23.528Z"
+    },
+    {
+      "rating": 4,
+      "numReviews": 7,
+      "price": 50.99,
+      "countInStock": 14,
+      "_id": "61b79f13c138335ee89e4e69",
+      "name": "MuscleTech Nitro Tech 100% Whey Gold Protein",
+      "image": "/images/MT4450102_grey_900x-PhotoRoom.png",
+      "description": "For more than two decades, the groundbreaking Nitro-Tech® formula has taken on all challengers – and is still recognized as one of the most powerful proteins ever developed.",
+      "brand": "MUSCLETECH",
+      "category": "protein",
+      "user": "61b79f13c138335ee89e4e5f",
+      "reviews": [],
+      "__v": 0,
+      "createdAt": "2021-12-13T19:29:23.528Z",
+      "updatedAt": "2021-12-13T19:29:23.528Z"
+    },
+    {
+      "rating": 3,
+      "numReviews": 12,
+      "price": 42.99,
+      "countInStock": 19,
+      "_id": "61b79f13c138335ee89e4e6a",
+      "name": "MusclePharm Combat Whey Protein Powder",
+      "image": "/images/MPHARM007_grey_900x-PhotoRoom.png",
+      "description": "Combat 100% PROTEIN POWDER Is designed for individuals or athletes who want a high quality multiple protein source that “feeds” muscles over a longer period of time (compared to traditional protein powders) and that can contribute to muscle repair and growth.",
+      "brand": "MUSCLEPHARM",
+      "category": "protein",
+      "user": "61b79f13c138335ee89e4e5f",
+      "reviews": [],
+      "__v": 0,
+      "createdAt": "2021-12-13T19:29:23.528Z",
+      "updatedAt": "2021-12-13T19:29:23.528Z"
+    }
+  ]
+}

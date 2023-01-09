@@ -1,0 +1,88 @@
+const products = [
+  {
+    name: 'Optimum Nutrition Gold Standard 100% Whey Protein',
+    image: '/images/OPT007_900x.png',
+    description:
+      '24g of Whey Protein with Amino Acids for Muscle Recovery and Growth* Muscle Building Whey Protein Powder*',
+    brand: 'OPTIMUM NUTRITION',
+    category: 'protein',
+    price: 29.99,
+    size: '2 lbs.',
+    flavour: 'Double Rich Chocolate',
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    name: 'Xtend Original BCAA',
+    image: '/images/SV2441534_900x.png',
+    description:
+      'ntra-Workout Powder with 7g of BCAAs to Build Muscle and Aid Recovery During Workouts* Formulated with Hydration-Inducing Electrolytes with Zero Sugar or Carbs*',
+    brand: 'XTEND',
+    category: 'bcaa',
+    price: 24.99,
+    size: '30 Servings',
+    flavour: 'Glacial Grape',
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    name: 'Dymatize Creatine Micronized',
+    image: '/images/DYM312_900x.png',
+    description:
+      'Increase muscle strength during workouts and intense exercise with pure micronized creatine monohydrate from Dymatize.* Muscles convert creatine into creatine phosphate and generate ATC for explosive exercise and energy. The premium quality of pure, Dymatize creatine monohydrate means your body absorbs more of it and raises ATC levels for stronger performance, longer.*',
+    brand: 'DYMATIZE',
+    category: 'creatine',
+    price: 9.99,
+    size: '300 Grams',
+    flavour: 'Unflavored',
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    name: 'Universal Nutrition Glutamine',
+    image: '/images/UNIV530108_900x.png',
+    description:
+      "Replenish the Body's Glutamine Storage* 5g of Glutamine a Serving",
+    brand: 'UNIVERSAL NUTRITION',
+    category: 'glutamine',
+    price: 17.99,
+    size: '300 Grams',
+    flavour: 'Unflavored',
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    name: 'Animal Pak Multivitamin',
+    image: '/images/UNIV020_900x.png',
+    description:
+      'Performance multivitamin packs include key vitamins and minerals to maintains a healthy immune response* Daily Multivitamin Pack for Overall Health*',
+    brand: 'ANIMAL',
+    category: 'multivitamin',
+    price: 32.95,
+    size: '44 Packs',
+    flavour: 'Unflavored',
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 10,
+  },
+  {
+    name: 'Sports Research Triple Strength Omega-3 Fish Oil',
+    image: '/images/SR4550160_900x.png',
+    description:
+      'Certified Fish Oil Made With AlaskOmega Supports Healthy Heart Function, Joint Flexibility, And Cell Production*',
+    brand: 'SPORTS RESEARCH',
+    category: 'omega',
+    price: 45.99,
+    size: '180 Softgels',
+    flavour: 'Unflavored',
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+];
+
+module.exports = products;

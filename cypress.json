@@ -1,0 +1,17 @@
+{
+  "baseUrl": "http://localhost:3006",
+  "scrollBehavior": "nearest",
+  "env": {
+    "apiUrl": "http://localhost:5000",
+    "user": {
+      "email": "tester@test.com",
+      "password": "password1234",
+      "name": "testuser"
+    },
+    "admin": {
+      "email": "admin@example.com",
+      "password": "123456"
+    }
+  },
+  "projectId": "8ury57"
+}

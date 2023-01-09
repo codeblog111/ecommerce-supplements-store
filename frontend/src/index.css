@@ -1,0 +1,138 @@
+main {
+  min-height: 80vh;
+}
+
+.nav-right-items {
+  margin-left: auto;
+}
+
+.card-img {
+  width: 100% !important;
+  height: 150px !important;
+  object-fit: contain;
+}
+
+.product-image {
+  width: 100% !important;
+  height: 420px !important;
+  object-fit: contain;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.product-price {
+  padding-top: 1rem;
+}
+
+.card-title {
+  font-size: 19px;
+  min-height: 50px;
+  /* text-overflow: ellipsis; */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.shopping-cart-title {
+  /* padding: 0.1rem 0; */
+  padding-bottom: 0.5rem;
+}
+
+.shopping-cart-image {
+  width: 100% !important;
+  height: 110px !important;
+  object-fit: contain;
+}
+
+.shopping-cart-row {
+  padding-top: 0.3rem;
+  margin: 0.3rem 0;
+}
+
+.select-method {
+  font-size: larger;
+}
+
+.btn-block {
+  width: 100% !important;
+}
+
+/* carousel */
+.carousel .carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+.carousel-indicators li {
+  background-color: teal !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 80px;
+  width: 100px;
+  /* outline: black; */
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  font-family: 'Font Awesome\ 5 Free';
+  content: '\f054';
+  font-size: 30px;
+  font-weight: 900; /* Fix version 5.0.9 */
+  color: teal;
+}
+
+.carousel-control-prev-icon:after {
+  font-family: 'Font Awesome\ 5 Free';
+  content: '\f053';
+  font-size: 30px;
+  font-weight: 900; /* Fix version 5.0.9 */
+  color: teal;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-bg {
+  background-color: #fff;
+}
+
+.carousel-caption h3 {
+  color: teal;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 35px;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+
+/* min-height:80px;
+display:flex;
+justify-content:center;
+align-items:center; */
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 767px) {
+  .product-image {
+    width: 100% !important;
+    height: 220px !important;
+    object-fit: contain;
+  }
+}

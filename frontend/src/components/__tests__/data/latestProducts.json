@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "rating": 3,
+      "numReviews": 4,
+      "price": 28.99,
+      "countInStock": 20,
+      "_id": "61b79f13c138335ee89e4e73",
+      "name": "Evlution Nutrition Women’s Multivitamin",
+      "image": "/images/EVL5230009_grey_900x-PhotoRoom.png",
+      "description": "With over 38 active ingredients, Evlution Nutrition’s Women’s Multivitamin supplies a broad-spectrum, vitamin, mineral, and immune support complex that is specifically designed for a high-performance active lifestyle that’s simple to take daily with 2 easy to swallow tablets.",
+      "brand": "EVLUTION NUTRITION",
+      "category": "multivitamin",
+      "user": "61b79f13c138335ee89e4e5f",
+      "reviews": [],
+      "__v": 0,
+      "createdAt": "2021-12-13T19:29:23.529Z",
+      "updatedAt": "2021-12-13T19:29:23.529Z"
+    },
+    {
+      "rating": 1,
+      "numReviews": 4,
+      "price": 24.99,
+      "countInStock": 2,
+      "_id": "61b79f13c138335ee89e4e71",
+      "name": "Optimum Nutrition Opti-Men Multivitamin For Men",
+      "image": "/images/OPT2380278_grey_900x-PhotoRoom.png",
+      "description": "ON’s Nutrient Optimization System for active men stacks 75+ active ingredients into a 3-tablet serving you can take all at one meal or spread across meals throughout the day.",
+      "brand": "OPTIMUM NUTRITION",
+      "category": "multivitamin",
+      "user": "61b79f13c138335ee89e4e5f",
+      "reviews": [],
+      "__v": 0,
+      "createdAt": "2021-12-13T19:29:23.529Z",
+      "updatedAt": "2021-12-13T19:29:23.529Z"
+    },
+    {
+      "rating": 2,
+      "numReviews": 4,
+      "price": 14.99,
+      "countInStock": 1,
+      "_id": "61b79f13c138335ee89e4e72",
+      "name": "Optimum Nutrition Opti-Women Multivitamin",
+      "image": "/images/OPT128_grey_900x-PhotoRoom.png",
+      "description": "ON’s Nutrient Optimization System for active women is a high-potency multivitamin containing 40 active ingredients including citrus bioflavonoids, soy isoflavones and other specialty ingredients.",
+      "brand": "OPTIMUM NUTRITION",
+      "category": "multivitamin",
+      "user": "61b79f13c138335ee89e4e5f",
+      "reviews": [],
+      "__v": 0,
+      "createdAt": "2021-12-13T19:29:23.529Z",
+      "updatedAt": "2021-12-13T19:29:23.529Z"
+    },
+    {
+      "rating": 2,
+      "numReviews": 19,
+      "price": 19.99,
+      "countInStock": 14,
+      "_id": "61b79f13c138335ee89e4e70",
+      "name": "RSP Nutrition Aminolean Vegan Aminos",
+      "image": "/images/RSP5920006_grey_900x-PhotoRoom.png",
+      "description": "If an amino product was going to be Animal, if it were going to garner that trusted stamp of approval, and reach that threshold of no-nonsense excellence, it would need to be serious.",
+      "brand": "RSP NUTRITION",
+      "category": "bcaa",
+      "user": "61b79f13c138335ee89e4e5f",
+      "reviews": [],
+      "__v": 0,
+      "createdAt": "2021-12-13T19:29:23.529Z",
+      "updatedAt": "2021-12-13T19:29:23.529Z"
+    }
+  ]
+}

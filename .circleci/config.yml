@@ -1,0 +1,80 @@
+version: 2.1
+
+orbs:
+  heroku: circleci/heroku@1.2.6 # Invoke the Heroku orb
+
+jobs:
+  build-and-test:
+    docker:
+      - image: cypress/base:14.15.0
+      - image: circleci/mongo:4.2-bionic-ram
+        environment:
+          MONGO_USERNAME: mongouser
+          MONGO_PASSWORD: mongopass
+
+    steps:
+      # Checkout the code as the first step.
+      - checkout
+      - run:
+          name: Install sudo
+          command: |
+            apt-get update
+            apt-get install sudo -y
+      - run:
+          name: Demonstrate that Mongo DB is available as localhost
+          command: |
+            curl -sSJL https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+            echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+            sudo apt update
+            sudo apt install mongodb-org -y
+            mongo localhost --eval 'db.serverStatus()'
+      - restore_cache:
+          keys:
+            - node-deps-v1-{{ .Branch }}-{{checksum "frontend/package-lock.json"}}
+            - node-deps-v1-
+      - run:
+          name: Install packages frontend
+          command: |
+            ls
+            cd frontend
+            npm install
+      - save_cache:
+          key: node-deps-v1-{{ .Branch }}-{{checksum "package-lock.json"}}
+          paths:
+            - frontend/node_modules
+      - restore_cache:
+          keys:
+            - backend-v1-{{ .Branch }}-{{checksum "package-lock.json"}}
+            - backend-v1-
+      - run:
+          name: Install packages backend
+          command: |
+            ls
+            npm install
+      - save_cache:
+          key: backend-v1-{{ .Branch }}-{{checksum "package-lock.json"}}
+          paths:
+            - node_modules
+            - /home/circleci/.cache/Cypress
+            - /root/.cache/Cypress
+      - run:
+          name: Run test dev servers
+          command: npm run dev-test
+          background: true
+      - run:
+          name: Run test
+          command: npm run test
+      - run:
+          name: Run cypress test
+          command: npx cypress run
+
+workflows:
+  test-and-deploy:
+    jobs:
+      - build-and-test
+      - heroku/deploy-via-git: # Use the pre-configured job, deploy-via-git
+          requires:
+            - build-and-test
+          filters:
+            branches:
+              only: main

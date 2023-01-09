@@ -1,0 +1,53 @@
+[
+  {
+    "rating": 5,
+    "numReviews": 12,
+    "price": 17.99,
+    "countInStock": 11,
+    "_id": "61b79f13c138335ee89e4e66",
+    "name": "Universal Nutrition Glutamine",
+    "image": "/images/UNIV530108_900x.png",
+    "description": "Replenish the Body's Glutamine Storage* 5g of Glutamine a Serving",
+    "brand": "UNIVERSAL NUTRITION",
+    "category": "glutamine",
+    "user": "61b79f13c138335ee89e4e5f",
+    "reviews": [],
+    "__v": 0,
+    "createdAt": "2021-12-13T19:29:23.527Z",
+    "updatedAt": "2021-12-13T19:29:23.527Z"
+  },
+  {
+    "rating": 4.5,
+    "numReviews": 12,
+    "price": 29.99,
+    "countInStock": 10,
+    "_id": "61b79f13c138335ee89e4e63",
+    "name": "Optimum Nutrition Gold Standard 100% Whey Protein",
+    "image": "/images/OPT007_900x.png",
+    "description": "24g of Whey Protein with Amino Acids for Muscle Recovery and Growth* Muscle Building Whey Protein Powder*",
+    "brand": "OPTIMUM NUTRITION",
+    "category": "protein",
+    "user": "61b79f13c138335ee89e4e5f",
+    "reviews": [],
+    "__v": 0,
+    "createdAt": "2021-12-13T19:29:23.527Z",
+    "updatedAt": "2021-12-13T19:29:23.527Z"
+  },
+  {
+    "rating": 4,
+    "numReviews": 8,
+    "price": 24.99,
+    "countInStock": 7,
+    "_id": "61b79f13c138335ee89e4e64",
+    "name": "Xtend Original BCAA",
+    "image": "/images/SV2441534_900x.png",
+    "description": "ntra-Workout Powder with 7g of BCAAs to Build Muscle and Aid Recovery During Workouts* Formulated with Hydration-Inducing Electrolytes with Zero Sugar or Carbs*",
+    "brand": "XTEND",
+    "category": "bcaa",
+    "user": "61b79f13c138335ee89e4e5f",
+    "reviews": [],
+    "__v": 0,
+    "createdAt": "2021-12-13T19:29:23.527Z",
+    "updatedAt": "2021-12-13T19:29:23.527Z"
+  }
+]

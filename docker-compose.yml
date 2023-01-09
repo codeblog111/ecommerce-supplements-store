@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  nginx:
+    restart: always
+    build:
+      context: ./compose/local/nginx
+      dockerfile: Dockerfile
+    ports:
+      - '3050:80'
+
+  backend:
+    build:
+      context: .
+      dockerfile: ./compose/local/backend/Dockerfile
+    command: /start.sh
+    volumes:
+      - ./backend:/app/backend
+    environment:
+      - MONGO_URI=mongodb://db/phanox_dev
+      - DB_HOST=db
+      - DB_PORT=27017
+    ports:
+      - 5000:5000
+    depends_on:
+      - db
+
+  db:
+    image: mongo:4.4
+    restart: always
+    volumes:
+      - ./db:/data/db
+
+  frontend:
+    build:
+      context: .
+      dockerfile: ./compose/local/frontend/Dockerfile
+    command: /start.sh
+    volumes:
+      - /app/node_modules
+      - ./frontend:/app
+    environment:
+      - API_HOST=http://backend:5000
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
